@@ -1,0 +1,37 @@
+{
+    "name": "framio",
+    "version": "0.1.0",
+    "description": "The official command-line interface for Framio.",
+    "type": "module",
+    "main": "bin/framio.js",
+    "bin": {
+        "framio": "bin/framio.js"
+    },
+    "files": [
+        "bin",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "start": "node bin/framio.js",
+        "test": "node --test test/**/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FramioApp/CLI.git"
+    },
+    "keywords": [
+        "framio",
+        "cli",
+        "framio-cli"
+    ],
+    "author": "Framio <hello@framio.app>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/FramioApp/CLI/issues"
+    },
+    "homepage": "https://github.com/FramioApp/CLI#readme",
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
